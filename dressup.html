@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dress Up Game</title>
+    <link rel="stylesheet" type="text/css" href="dressup.css" />
+  </head>
+
+  <body>
+    <h1>Fundamentals of IT Dollhouse</h1>
+    <h5>~ by Melis, Krithika, and Ope ~</h5>
+    <div id="background"></div>
+    <div id="pants"></div>
+    <div id="clothes"></div>
+    <div id="hair"></div>
+    <div id="character"></div>
+    <div id="shoe"></div>
+    <div id="bg"></div>
+    <div id="comment"></div>
+
+    <button id="nexthair" class="button" onclick="nexthair()">Hair</button>
+    <button id="nextdress" class="button" onclick="nextdress()">Shirts</button>
+    <button id="nextbottom" class="button" onclick="nextbottom()">Pants/Skirts</button>
+    <button id="nextshoe" class="button" onclick="nextshoes()">Shoes</button>
+    <button id="nextchar" class="button" onclick="nextchar()">Characters</button>
+    <button id="nextbg" class="button" onclick="nextbg()">Background</button>
+    <button id="look" class="button" onclick="look()">How do I Look?</button>
+    <script src="dressup.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(function() {
+        $("h5").css("color", "green");
+      });
+    </script>
+  </body>
+</html>

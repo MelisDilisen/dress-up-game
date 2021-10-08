@@ -1,0 +1,437 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#008B8B, #000080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+}
+
+#comment{
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  color:#b8043a;
+  font-size: 30px;
+  background-color: #B0E0E6;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px 10px 4px 20px;
+}
+
+p.linee {
+  position:absolute;
+  border-style: double;
+  border-color: blue;
+  width:997px;
+  height:732px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  padding: 5px 5px;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000080;
+  background-color: #B0E0E6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #4169E1;
+}
+
+.button:hover {background-color: #7FFFD4}
+
+.button:active {
+  background-color: #98FB98;
+  box-shadow: 0 5px #228B22;
+  transform: translateY(4px);
+}
+
+
+#character{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.char1{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/melis.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.char2{
+  position:absolute;
+  width:900px;
+  height:987px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('images/krithika.png');
+}
+
+.char3{
+  position:absolute;
+  width:900px;
+  height:987px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('images/ope.png');
+}
+
+#pants{
+  position:absolute;
+  width:900px;
+  height:987px;
+  z-index:2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom1{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/bottom1.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom2{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/bottom2.png');
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.bottom3{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/bottom3.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom4{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/bottom4.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom5{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/bottom5.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clothes{
+  position:absolute;
+  width:900px;
+  height:987px;
+  z-index:2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dress1{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-repeat: no-repeat;
+  background-image: url('images/top1.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dress2{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-repeat: no-repeat;
+  background-image: url('images/top2.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dress3{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-repeat: no-repeat;
+  background-image: url('images/top3.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dress4{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-repeat: no-repeat;
+  background-image: url('images/top4.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dress5{
+  position:absolute;
+  width:900px;
+  height:987px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('images/top5.png');
+}
+
+
+#hair{
+  position:absolute;
+  width:900px;
+  height:987px;
+  z-index:2;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.hair1{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/hair1.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hair2{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/hair2.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hair3{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/hair3.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+.hair4{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/hair4.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hair5{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/hair5.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#shoe{
+  position:absolute;
+  width:900px;
+  height:987px;
+  z-index:2;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.shoes1{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/shoe1.png');
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.shoes2{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/shoe2.png');
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.shoes3{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/shoe3.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shoes4{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/shoe4.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shoes5{
+  position:absolute;
+  width:900px;
+  height:987px;
+  background-image: url('images/shoe5.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bg{
+  position:absolute;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  z-index:-1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .back1{
+  position:absolute;
+  width:100%;
+  height:987px;
+  background-image: url('images/background1.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back2{
+  position:absolute;
+  width:100%;
+  height:987px;
+  background-image: url('images/background2.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back3{
+  position:absolute;
+  width:100%;
+  height:987px;
+  background-image: url('images/background3.png');
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#nexthair{
+  position:absolute;
+  right:50px;
+  top:100px;
+}
+
+#nextdress{
+  position:absolute;
+  right:50px;
+  top:150px;
+}
+
+#nextbottom{
+  position:absolute;
+  right:50px;
+  top:200px;
+}
+
+#nextchar{
+  position:absolute;
+  right:50px;
+  top:250px;
+}
+
+#nextshoe{
+  position:absolute;
+  right:50px;
+  top:300px;
+}
+
+#nextbg{
+  position:absolute;
+  right:50px;
+  top:350px;
+}
+
+#prevhair{
+  position:absolute;
+  left:50px;
+  top:100px;
+}
+
+#prevdress{
+  position:absolute;
+  left:50px;
+  top:150px;
+}
+
+#prevbottom{
+  position:absolute;
+  left:50px;
+  top:200px;
+}
+
+#prevchar{
+  position:absolute;
+  left:50px;
+  top:250px;
+}
+
+#prevshoe{
+  position:absolute;
+  left:50px;
+  top:300px;
+}
+
+#prevbg{
+  position:absolute;
+  left:50px;
+  top:350px;
+}
+
+#look{
+  position:absolute;
+  right:50px;
+  top:400px;
+}
